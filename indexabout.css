@@ -1,0 +1,205 @@
+.container{
+max-width: 960px;
+    display: block;
+    margin: auto;
+}
+/**  Background-image **/
+body{
+	background-image:url("qbkls.jpg");
+	    background-image: url(qbkls.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+}
+
+ul.ul-nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fbfbfb;
+	box-shadow: 1px 1px 2px -1px grey;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: #787777;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.navbar
+{
+float:right;
+    margin-top: 20px;
+}
+.active {
+    
+	color:#00BCD4;
+}
+.logo
+{
+font-size:25px;
+}
+.img-class
+{
+max-width:200px;
+height:200px;
+object-fit: cover;
+}
+.about-container
+{
+    display: inline-flex;
+}
+.abt-doc
+{
+padding-left:10px;
+}
+.footer
+{
+width:100%;height:45px;
+background:gray;
+text-align:center;
+color:#fff;
+
+}
+.footer-txt
+{
+padding:7px 0;
+}
+.abt-par
+{
+    margin: 0px 0px;
+}
+.abt-head
+{
+border-bottom:3px solid #d1d1d1;
+color:#00BCD4;
+}
+li.logo-li{
+border-right: none;background: #00BCD4;
+    color: #fff;
+    padding: 0 15px;
+	}
+	.abt-section
+	{
+		    background: #fff;
+    padding: 5px;
+    margin-top: 18px;
+    }
+    .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+    input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    input[type=text], select, textarea {
+        width: 100%; 
+        padding: 12px; 
+        border: 1px solid #ccc; 
+        border-radius: 4px; 
+        box-sizing: border-box; 
+        margin-top: 6px; 
+        margin-bottom: 16px; 
+        resize: vertical 
+    }
+    textarea{height:100px;
+    }
+  footer {border-top: 7px solid teal;
+margin-top:10px;position:absolute; bottom:0;left:0;
+
+
+}
+#portheader{color:teal;border-bottom:5px solid lightgray;
+
+}
+#block1{width:200px;
+height:200px;
+background-color:grey;
+color:white; display:inline-block;
+
+}
+#block2{width:200px;
+    height:200px;
+    background-color:grey;
+    color:white; display:inline-block;
+
+float:right;
+}
+
+    #blockcontainer{border:5px solid black; 
+        margin:10px;
+        padding:10px;
+
+    }
+
+    	/**Portfolio Starts**/
+	.portfolio-container
+	{
+		display:inline-block;
+	}
+	.portfolio-img
+	{
+		
+		display: inline-block;
+	}
+	figure
+	{
+		display:inline-block;
+	}
+	figcaption
+	{
+	background: #00BCD4;
+	color: #fff;
+	padding: 4px;	
+    }
+    
+    @viewport {
+        width: device-width ;
+        zoom: 1.0 ;
+      }
+
+      @media screen and (max-width: 980px) {
+        .left, .main, .right {
+          width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        .left, .main, .right {
+          width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+        }
+      }
+
+      @media screen and (max-width: 640px) {
+        .left, .main, .right {
+          width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+        }
+      }
+	
+	/**Portfolio Ends**/
+    
